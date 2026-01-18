@@ -1,0 +1,63 @@
+# Agile Execution Document  
+## Smart Banking Simulation Project
+
+---
+
+## Day 1 – Requirement Analysis & Planning
+- Understood the internship project requirements
+- Studied the reference banking simulation application provided by the mentor
+- Identified core banking features such as account creation, deposit, and withdrawal
+- Planned the overall project workflow and folder structure
+- Set up the development environment (Java, Maven, Git)
+
+---
+
+## Day 2 – Project Setup & Architecture Design
+- Created Spring Boot project using Maven
+- Designed layered architecture (Controller, Service, Model)
+- Configured `pom.xml` with required dependencies
+- Set up basic application configuration files
+- Initialized Git repository for version control
+
+---
+
+## Day 3 – Core Feature Development
+- Implemented Account model class
+- Developed service layer for banking operations
+- Added business logic for:
+  - Creating bank accounts
+  - Depositing money
+  - Withdrawing money
+- Tested core functionality locally
+
+---
+
+## Day 4 – REST API & Testing
+- Implemented REST controllers for banking operations
+- Exposed API endpoints for account creation and transactions
+- Tested APIs using browser and Postman
+- Handled basic input validations
+- Fixed bugs found during testing
+
+---
+
+## Day 5 – Documentation & Improvements
+- Added application properties configuration
+- Improved code readability and structure
+- Created project documentation (`README.md`)
+- Added MIT License to the project
+- Updated Agile execution documentation
+
+---
+
+## Day 6 – GitHub Deployment & Final Review
+- Merged local project with remote GitHub repository
+- Resolved merge conflicts and verified repository structure
+- Pushed complete project to GitHub
+- Performed final project review
+- Prepared project for internship submission
+
+---
+
+## Conclusion
+This project helped me gain hands-on experience in backend development using Spring Boot, REST APIs, and GitHub version control. The agile execution approach improved my understanding of real-world software development practices.
