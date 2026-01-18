@@ -1,7 +1,5 @@
 # Smart-Banking-Simulation
 Full Stack Java Banking Application
-# Smart Banking Simulation
-
 A simple full-stack banking transaction simulation application developed using Spring Boot.  
 This project demonstrates core banking operations and follows clean layered architecture principles.
 
