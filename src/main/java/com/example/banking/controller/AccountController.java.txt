@@ -1,0 +1,36 @@
+package com.example.banking.controller;
+
+import com.example.banking.model.Account;
+import com.example.banking.service.AccountService;
+import org.springframework.web.bind.annotation.*;
+
+@RestController
+@RequestMapping("/accounts")
+public class AccountController {
+
+    private final AccountService service;
+
+    public AccountController(AccountService service) {
+        this.service = service;
+    }
+
+    @PostMapping("/create")
+    public Account create(@RequestParam String name,
+                          @RequestParam double balance) {
+        return service.createAccount(name, balance);
+    }
+
+    @PostMapping("/{id}/deposit")
+    public String deposit(@PathVariable Long id,
+                          @RequestParam double amount) {
+        service.deposit(id, amount);
+        return "Deposit successful";
+    }
+
+    @PostMapping("/{id}/withdraw")
+    public String withdraw(@PathVariable Long id,
+                           @RequestParam double amount) {
+        service.withdraw(id, amount);
+        return "Withdraw successful";
+    }
+}
